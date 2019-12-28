@@ -29,6 +29,12 @@
     transition: 0.4s;
    
 }
+
+#smiley{
+    font-size: 40px;
+    font-weight: bold;
+
+}
 .right a {
     float:right;
     font-size: 20px;
@@ -37,7 +43,7 @@
     padding: 5px 10px 15px 10px;
     font-family: 'Kulim Park', sans-serif;
 }
-.right a:hover{
+#home{
     background-color: #ff7315;
 }
 .span{
