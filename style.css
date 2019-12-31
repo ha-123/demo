@@ -84,7 +84,7 @@
   }
   .content {
     position: relative;
-    top: 20%;
+    top: 15%;
     text-align: center;
     margin-top: 10px;
     background-color: white;
@@ -92,7 +92,22 @@
     margin-right: 300px;
 }
 #message{
-    font-family:'Kulim Park', sans-serif;
+    font-family: 'Courier Prime', monospace;
+    padding-top:20px;
+    font-size: 40px;
+}
+#send{
+    padding:10px;
+    width:100px;
+    background-color: #3a3535;
+    color:white;
+    font-family: 'Courier Prime', monospace;
+}
+#send:hover{
+    background-color:#ff7315 ;
+    color:black;
+    font-family: 'Courier Prime', monospace;
+
 }
   .opPage .close {
     position: absolute;
@@ -100,9 +115,27 @@
     right: 45px;
     font-size: 40px;
     color:white;
-  }
-  
-  
+}
+.opAbout{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+
+}
+.opAbout .close {
+    position: absolute;
+    top: 80px;
+    right: 45px;
+    font-size: 40px;
+    color:white;
+}
 .middle{
     
    height:400px;

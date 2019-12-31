@@ -21,3 +21,15 @@ function closePage(){
     document.getElementById("contact").style.backgroundColor="white";
     document.getElementById("home").style.backgroundColor="#ff7315";
 }
+function openAbout(){
+    document.getElementById("pageAbout").style.height="100%";
+    document.getElementById("about").style.backgroundColor="#ff7315";
+    document.getElementById("home").style.backgroundColor="white";
+
+}
+function closeAbout(){
+    document.getElementById("pageAbout").style.height="0%";
+    document.getElementById("about").style.backgroundColor="white";
+    document.getElementById("home").style.backgroundColor="#ff7315";
+
+}

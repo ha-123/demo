@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>dfrh</title>
     <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="nav.js"></script>
 </head>
@@ -12,8 +13,8 @@
     <div class="top" id="tops">
         <a href="#default" id="logo"><span id="smiley">&#9788;</span>UTBREAK</a>
         <div class="right">
-            <a href="">ABOUT</a>
-            <span class="span" onclick="openPage()" id="contact">CONTACT</span s>
+            <span class="span" onclick="openAbout()" id="about">ABOUT</span>
+            <span class="span" onclick="openPage()" id="contact">CONTACT</span>
             <a href="">SIGN-UP</a>
             <a href="" id="home">HOME</a>
         </div>
@@ -21,12 +22,20 @@
     <div id="page" class="opPage">
         <a href="javascript:void(0)" class="close" onclick="closePage()">&#10005;</a>
         <div class="content">
-            <h3 id="message">LEAVE A MESSAGE</h3><br>
-            <div>
-            <input type="text" placeholder="First Name" ><br><br>
-            <input type="text" placeholder="Last Name"><br><br>
-            <input type="email" placeholder="What's your e-mail"><br><br>
+            <p id="message">LEAVE A MESSAGE</p><br>
+            <div class="detail">
+            <input type="text" placeholder=" First Name" style="border-radius: 5px; height:30px; width:200px" ><br><br>
+            <input type="text" placeholder=" Last Name" style="border-radius: 5px; height:30px; width:200px"><br><br>
+            <input type="email" placeholder=" What's your e-mail" style="border-radius: 5px; height:30px; width:200px"><br><br>
+            <textarea placeholder="Message..." style="height:100px; width:200px; border-radius:5px"></textarea><br><br>
+            <button id="send">SEND</button><br><br>
             </div>
+        </div>
+    </div>
+    <div>
+        <div id="pageAbout" class="opAbout">
+            <a href="javascript:void(0)" class="close" onclick="closeAbout()">&#10005;</a>
+
         </div>
     </div>
     <div class="middle">
